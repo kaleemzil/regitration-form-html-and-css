@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form </title>
+    <style>
+    form{
+        border-style: solid;
+        color: antiquewhite;
+        background:rgb(149, 199, 49);
+        size:30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    } 
+     
+
+    </style>
+</head>
+<body>
+    <header align="center"> <img src="images/9c9aefcf49d7f51f9be204b650e7362e-removebg-preview.png" alt="saylani logo" width="500px" height="190px"></header>
+    <h2 align="center"><u>STUDENT REGISTRATION FORM</u></h2>
+    
+    <FORM>
+        <table>
+            <tr>
+    
+                <td>
+                    <P>FULL NAME</P>
+                </td>
+    
+                <td><input type="text" placeholder="ENTER YOUR NAME" name="full name" size="20" maxlength="30"></td>
+                <td>(max 10 character a-z or A-Z)</td>
+            </tr>
+            <tr>
+                <td>
+                    <P>LAST NAME </P>
+                </td>
+    
+                <td><input type="text" placeholder="ENTER YOUR NAME" name="full name" size="20" maxlength="10"></td>
+                <td>(max 10 character a-z or A-Z)</td>
+            </tr>
+            <tr>
+                <td>
+                    <P>DATE OF BIRTH </P>
+                </td>
+    
+                <td>
+                    <select name="month">
+                        <option value="month">MONTH</option>
+                        <option value="JANUARY">JANUARY</option>
+                        <option value="FEBRUARY">FEBRUARY</option>
+                        <option value="MARCH">MARCH</option>
+                        <option value="APRIL">APRIL</option>
+                        <option value="JUNE">JUNE</option>
+                        <option value="JULY">JULY</option>
+                        <option value="AUGUST">AUGUST</option>
+                        <option value="SEPTEMBER">SEPTEMBER</option>
+                        <option value="OCTOBER">OCTOBER</option>
+                        <option value="NOVEMBER">NOVEMBER</option>
+                        <option value="DECEMBER">DECEMBER</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="DAY">
+                        <option value="DAY">DAY</option>
+                        <option value="MONDAY">MONDAY</option>
+                        <option value="TUESDAY">TUESDAY</option>
+                        <option value="WEDNESDAY">WEDNESDAY</option>
+                        <option value="THURSDAY">THURSDAY</option>
+                        <option value="FRIDAY">FRIDAY</option>
+                        <option value="SATURDAY">SATURDAY</option>
+                        <option value="SUNDAY">SUNDAY</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="YEAR">
+                        <option value="YEAR">YEAR</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><p>ENTER EMAIL ID</p></td>
+                <td><input type="email" placeholder="hello123@gmail.com" size="20" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td><p> MOBILE NUMBER</p></td>
+                <td><input type="number" placeholder="+92**********" size="20" maxlength="20" value="number"></td>
+                <TD>(10 digit number)</TD>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td><p>MALE<input type="radio" name="GENDER" checked></p></td>
+                <td><p>FEMALE<input type="radio" name="GENDER" ></p></td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><textarea name="textarea" id="enter" cols="40" rows="05"></textarea></td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td><input placeholder="ENTER YOUR CITY NAME" type="text" size="30" maxlength="30"></td>
+                <td>(at least 30 charecter is available)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ZIPCODE</td>
+                <td><input  placeholder="ENTER YOUR PINCODE" type="password"  size="30" maxlength="08"  ></td>
+                <td>(only 8 charecter available for typing)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>STATE</td>
+                <td><input placeholder="ENTER YOUR STATE" type="text" size="30" maxlength="30" ></td>
+                <td>(at least 30 charecter is available)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>COUNTRY</td>
+                <td><input placeholder="ENTER YOUR COUNTRY" type="text" size="30" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>HOBBIS</td>
+                <td><p>DRAWING<input  type="checkbox"></p></td>
+                <td><p>CRICKET<input  type="checkbox"></p></td>
+                <td><p>SNOOKER<input  type="checkbox"></p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><p>CODING<input type="checkbox"></p></td>
+                <td><P>OTHERS<input type="checkbox"><input TYPE="text"></P></td>
+            </tr>
+            <tr>
+                <td><p>QUALIFICATION</p></td>
+                <td>
+                <table>
+                    <tr>
+                        <td>S.NO      EXAMINATION</td>
+                    </tr>
+                </table>
+            </td>   
+            <td align="center">BOARD</td>
+            <td align="center">PERCENTAGE OF THE YEAR </td>
+            <td align="center">YEAR OF PASSING OF THIS WORK</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>1     CLASS X</td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text"  size="35"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>2    CLASS XI</td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text"  size="35"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>3     CLASS XII</td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text"  size="35"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>4     GRADUATION</td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text"  size="35"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>5     MASTERS</td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text" size="35"></td>
+                <td><input type="text"  size="35"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td align="center">(10 char max)</td>
+                <td align="center">(upto 2 decimal)</td>
+            </tr>
+            <tr>
+                <td>COURSES APPLIED FOR</td>
+                <td><p>BCA<input type="radio"></p><p>B.COM<input type="radio"></p></td>
+                <td><p>BBA<input type="radio"></p><p>B.A<input type="radio"></p></td>
+
+                
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+           
+
+        </table>
+        <table align="center">
+            <tr>
+        <td ><button>SUBMIT</button></td>
+        <br />
+        <td ><button>RESET</button></td>
+        </tr>
+        </table>
+        <p></p>
+        <p></p>
+    </FORM>
+        
+    <footer align="center">
+        <p>COPYRIGHT @ SAYLANI MASS IT TRAINING</p>
+    </footer>
+
+</body>
+</html>
